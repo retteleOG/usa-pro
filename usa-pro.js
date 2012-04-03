@@ -3,7 +3,7 @@ var number_of_pairs = 1;
 var before_number_of_pairs = 0;
 
 
-while(month < 12){
+while(month < 24){
 var b = before_number_of_pairs;
 number_of_pairs
 =number_of_pairs
@@ -15,3 +15,5 @@ console.log("pairs: "+number_of_pairs);
 console.log("before: "+before_number_of_pairs);
 console.log();
 }
+
+console.log("changed month by toya33");
